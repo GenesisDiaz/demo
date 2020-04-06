@@ -1,14 +1,394 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "ID": "{1334E778-EDA3-4117-A3E4-63C5F2D46EA7}",
+    "Descripcion": "Retenciones de ganancias de pagos",
+    "ExportarI": "False",
+    "RegistroC": "0",
+    "FiltroporFecha": "FechaActual",
+    "ExplorarI": "False",
+    "MultipleI": "True",
+    "Bo_Extension_ID": "{0F07A496-200C-4A06-A820-4E61B6385123}",
+    "Evaluar_Vista_ID": "{867A1716-DF5D-4C3D-8E3A-1C40A539E7B6}",
+    "Caracter de Relleno": "",
+    "Lado Relleno": "",
+    "Aplicativo": "",
+    "Organismo Fiscal": "",
+    "Codigo": "",
+    "Denominacion Impositiva": "",
+    "Cantidad Decimale": "0",
+    "Periocidad": "",
+    "Detalle Resolucion": "",
+    "Script ID": "{1B90BB9C-E979-481D-9D94-440D0AAC3617}",
+    "Campos": [
+      {
+        "nombre": "Campo1",
+        "Caption": "Tipo de operación",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "1",
+        "Ordenvisualizaciones": "1",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo2",
+        "Caption": "Fecha de comprobante",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "2",
+        "Ordenvisualizaciones": "2",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo3",
+        "Caption": "Número de comprobante a pagar",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "3",
+        "Ordenvisualizaciones": "3",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo5",
+        "Caption": "Código def.",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "5",
+        "Ordenvisualizaciones": "5",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo6",
+        "Caption": "Código de regimen",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "6",
+        "Ordenvisualizaciones": "6",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo7",
+        "Caption": "Base imponible",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "7",
+        "Ordenvisualizaciones": "7",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo8",
+        "Caption": "Fecha de pago",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "8",
+        "Ordenvisualizaciones": "8",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo4",
+        "Caption": "Total",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "4",
+        "Ordenvisualizaciones": "4",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo10",
+        "Caption": "Sujeto suspendido",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "10",
+        "Ordenvisualizaciones": "10",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo11",
+        "Caption": "Importe retenido",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "11",
+        "Ordenvisualizaciones": "11",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo12",
+        "Caption": "% de exclusión",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "12",
+        "Ordenvisualizaciones": "12",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo13",
+        "Caption": "Fecha de exclusión",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "13",
+        "Ordenvisualizaciones": "13",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo14",
+        "Caption": "Tipo de documento",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "14",
+        "Ordenvisualizaciones": "14",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo15",
+        "Caption": "Número de documento",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "15",
+        "Ordenvisualizaciones": "15",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo9",
+        "Caption": "Código de condición",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "9",
+        "Ordenvisualizaciones": "9",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo16",
+        "Caption": "Número de certificado original",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "16",
+        "Ordenvisualizaciones": "16",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      }
+    ],
+    "Items": [
+      {
+        "ID": "{F1C8250B-6BFF-11D5-B529-0050DAC017BE}",
+        "Comportamiento": "False",
+        "Estado": "C",
+        "Tipo": "Egreso de Valores"
+      }
+    ]
+  },
+  {
+    "ID": "{2DAFFD9B-0F3F-4985-8F29-BF67BE5EB18F}",
+    "Descripcion": "Percepciones IVA de compras",
+    "ExportarI": "False",
+    "RegistroC": "0",
+    "FiltroporFecha": "FechaActual",
+    "ExplorarI": "False",
+    "MultipleI": "False",
+    "Bo_Extension_ID": "{AEB4F54C-9FAA-4854-AD5B-552DE493DE1E}",
+    "Evaluar_Vista_ID": "{858DD663-E2C8-4305-BBDD-37A91EF2B95B}",
+    "Caracter de Relleno": "",
+    "Lado Relleno": "",
+    "Aplicativo": "",
+    "Organismo Fiscal": "",
+    "Codigo": "",
+    "Denominacion Impositiva": "",
+    "Cantidad Decimale": "0",
+    "Periocidad": "",
+    "Detalle Resolucion": "",
+    "Script ID": "{AFC3147A-23AF-49B2-A5A9-F91FF34FD942}",
+    "Campos": [
+      {
+        "nombre": "Campo1",
+        "Caption": "Código Impuesto",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "1",
+        "Ordenvisualizaciones": "10",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo5",
+        "Caption": "Código Comprobante",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "5",
+        "Ordenvisualizaciones": "50",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo2",
+        "Caption": "CUIT",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "2",
+        "Ordenvisualizaciones": "20",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo4",
+        "Caption": "Código Punto Venta",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "4",
+        "Ordenvisualizaciones": "45",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo6",
+        "Caption": "Percepción",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "6",
+        "Ordenvisualizaciones": "60",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      },
+      {
+        "nombre": "Campo3",
+        "Caption": "Fecha Percepcion",
+        "tipo": "T",
+        "Orden": "0",
+        "Nrocampo": "3",
+        "Ordenvisualizaciones": "30",
+        "Ancho": "0",
+        "LadoRelleno": "",
+        "CaracterRelleno": "",
+        "CantidadCifrasDecimales": "0"
+      }
+    ],
+    "Items": [
+      {
+        "ID": "{50829758-5905-11D5-86C4-0080AD403F5F}",
+        "Comportamiento": "False",
+        "Estado": "C",
+        "Tipo": "Factura de Compra"
+      },
+      {
+        "ID": "{008B188F-F689-4E62-9EFE-9F5197778B06}",
+        "Comportamiento": "False",
+        "Estado": "C",
+        "Tipo": "Factura Gastos Bancarios"
+      },
+      {
+        "ID": "{46A2F0E6-0523-11D6-B0CE-004854841C8A}",
+        "Comportamiento": "False",
+        "Estado": "C",
+        "Tipo": "Factura de Gastos de Importación"
+      },
+      {
+        "ID": "{3BB589BA-61CA-11D5-931E-00E07D9040B9}",
+        "Comportamiento": "False",
+        "Estado": "C",
+        "Tipo": "Nota de Débito de Compra"
+      },
+      {
+        "ID": "{3BB589A9-61CA-11D5-931E-00E07D9040B9}",
+        "Comportamiento": "True",
+        "Estado": "C",
+        "Tipo": "Nota de Crédito de Compra"
+      },
+      {
+        "ID": "{54CA3D3F-2397-42EE-9CB7-97AB231B8AA2}",
+        "Comportamiento": "False",
+        "Estado": "C",
+        "Tipo": "Rendición de Factura"
+      },
+      {
+        "ID": "{36BC0FD9-FB96-4283-A38C-0542B41CE4D1}",
+        "Comportamiento": "True",
+        "Estado": "C",
+        "Tipo": "Nota de Crédito de Compra - Dif. Cambio"
+      },
+      {
+        "ID": "{C199A544-770E-402D-B1E9-29D829D7DB2C}",
+        "Comportamiento": "False",
+        "Estado": "C",
+        "Tipo": "Nota de Débito de Compra - Dif. Cambio"
+      },
+      {
+        "ID": "{32713F3A-46FC-4231-9BC9-3E958A2DB72C}",
+        "Comportamiento": "False",
+        "Estado": "C",
+        "Tipo": "Factura FF"
+      },
+      {
+        "ID": "{E76D0453-77C1-41A0-8350-D2B19264DBFE}",
+        "Comportamiento": "False",
+        "Estado": "C",
+        "Tipo": "Despachos de Importación"
+      },
+      {
+        "ID": "{A8C63B74-94E6-4E4D-97E0-C269AAAF2271}",
+        "Comportamiento": "False",
+        "Estado": "C",
+        "Tipo": "Factura Agente Aduanal"
+      },
+      {
+        "ID": "{89C0C19A-1BE3-4A4F-A5CA-207C00D1ED3B}",
+        "Comportamiento": "False",
+        "Estado": "C",
+        "Tipo": "ND Agente Aduanal"
+       }
+    ]
   }
-}
+]
